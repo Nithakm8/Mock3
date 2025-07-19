@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<main>
+   <div class="left">
+    <div class="head1">
+    <h4>Mortgage Calculator</h4>
+    <a href="#">Clear All</a>
+    </div>
+    <form action="">
+       
+        <div class="formdiv">
+            <div class="amount">
+            <label for="">Mortgage Amount</label>
+
+            <input type="text"  placeholder="£        300,000" class="amtinp">
+            </div>
+        
+         
+        <div class="termandrate">
+        <div class="term">
+            <label for="">Mortgage Term</label>
+            <input type="text" class="inputtr" placeholder="25                         Years">
+        </div>
+        <div class="rate">
+            <label for="">Interest Rate</label>
+            <input type="text" class="inputtr" placeholder="5.25                         %">
+        </div>
+        </div>
+        <div class="type">
+            <label for="">Mortgage Type
+            <div class="inptype">
+                <input type="radio" class="r1">
+            <input type="text" placeholder="      Repayment" name="repayment" class="selected">
+            <input type="radio" class="r2">
+            <input type="text" placeholder="      Interest only" >
+            </div>
+            </label>
+        </div>
+        <div class="btn">
+        <button><img src="./icons8-calculator-30.png" alt="">Calculate Repayments  </button>
+        </div>
+    </div>
+    </form>
+   </div> 
+   <div class="right">
+    <div class="resulthead">
+        <h5>Your results</h5>
+    </div>
+    <div class="resultpara">
+        <p>Your results are shown below based on the information <br>you provided.To adjust the results,edit the form and <br>click "calculate repayments"again.</p>
+    </div>
+    <div class="repayments">
+        <div class="repay1">
+        <p>Your monthly repayments</p>
+       <p class="yellow">£1,797.74</p>
+        </div>
+        <hr>
+        <div class="repay2">
+       <p> Total you'll repay over the term</p>
+       <p class="white"> £539,322.94</p>
+       </div>
+
+    </div>
+   </div>
+</main>  
+</body>
+</html>
