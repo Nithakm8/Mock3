@@ -82,12 +82,12 @@ color:black;
 .r1{
     position: relative;
     top:26px;
-    right: 140px;
+    right: 110px;
 }
 .r2{
   position: relative;
     top:26px;
-    right: 130px;  
+    right: 110px;  
 }
 .selected{
     border-color: yellow;
